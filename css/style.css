@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0 auto;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+}
+.conteiner {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-A a {
+  padding-top: 9px;
+}
+.header-A {
+  display: flex;
+  gap: 80px;
+}
+.header h1 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.header-B {
+  display: flex;
+  gap: 30px;
+}
+.header-B button {
+  background: #ece5ff;
+  color: #794cff;
+  border: none;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+}
+.header-A button:hover {
+  transform: scale(1.1);
+}
+.section {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.section p {
+  width: 460px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+.section h1 {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+}
+
+.section-btn button {
+  border-radius: 10px;
+  width: 100px;
+  border: none;
+  background: #81c43b;
+  color: #fff;
+  height: 20px;
+}
+.section-btn span {
+  background: #f2f9eb;
+  border-radius: 10px;
+}
+.section-in button {
+  width: 100px;
+  height: 37px;
+  background: #794cff;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.section-in input {
+  height: 30px;
+  max-width: 200px;
+}
+.section-im {
+  display: flex;
+  justify-content: center;
+}
+.section-im img {
+  max-width: 700px;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+.section-ig {
+  display: flex;
+  gap: 80px;
+}
+.timline {
+  display: flex;
+  /* padding-top: 100px; */
+  background: #fbfafe;
+  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 200px; */
+}
+.timline img {
+  max-width: 500px;
+}
+.timline h1 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.timline p {
+  font-size: 16px;
+  width: 260px;
+}
+.timline-go {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.timline-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.timline-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.timline-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.timline-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.make{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.make h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.curs{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 90px;
+}
+.curs h1{
+    font-weight: 600;
+    font-size: 18px;
+}
+.curs p{
+
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.curs-1{
+    width: 250px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.curs-2{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.curs-3{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.curs-4{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.curs-5{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.curs-6{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.work{
+    display: flex;
+    background:  #F0EBFA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.work-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    /* [padding] */
+    padding-left: 20px;
+}
+.work-text p{
+    width: 350px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.work-text h1{
+    width: 320px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.work-text button{
+    width: 170px;
+    height: 45px;
+    background: #796EFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.work-text button:hover{
+    transform: scale(1.1);
+}
+.custym{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    gap: 30px;
+    text-align: center;
+}
+.custym p{
+    /* width: 420px; */
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.custym h1{
+    width: 350px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.client{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.client-1{
+  display: flex;
+  gap: 20px;
+}
+.client-2{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.client-2 h1{
+font-weight: 600;
+font-size: 19px;
+}
+.client-2 span{
+font-weight: 400;
+font-size: 17px;
+}
+.gog{
+  display: flex;
+  padding-top: 100px;
+  background: #796EFF;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  align-items: center;
+  border-radius: 25px;
+}
+.gog h1{
+width: 460px;
+font-weight: 700;
+font-size: 40px;
+color: #Fff;
+}
+.gogimg{
+  display: flex;
+  gap: 20px;
+}
